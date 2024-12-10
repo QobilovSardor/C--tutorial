@@ -12,3 +12,4 @@
 /Users/sardorqobilov/sadidev/c#/MyCSharpApp/obj/Debug/net9.0/MyCSharpApp.pdb
 /Users/sardorqobilov/sadidev/c#/MyCSharpApp/obj/Debug/net9.0/MyCSharpApp.genruntimeconfig.cache
 /Users/sardorqobilov/sadidev/c#/MyCSharpApp/obj/Debug/net9.0/ref/MyCSharpApp.dll
+/Users/sardorqobilov/sadidev/c#/MyCSharpApp/obj/Debug/net9.0/MyCSharpApp.sourcelink.json
