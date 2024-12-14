@@ -10,15 +10,22 @@ class Program
     Console.Write("Yoshingizni kiriting: ");
     yosh = Convert.ToInt32(Console.ReadLine());
     // Foydalanuchini yoshini tekshirish
-    if (yosh <= 12)
+    try
     {
-      Console.WriteLine("Siz holi balog'atga yetmagansiz!");
+      if (yosh <= 12)
+      {
+        Console.WriteLine("Siz holi balog'atga yetmagansiz!");
+      }
+      else
+      {
+        Console.WriteLine("Hush kelibsiz");
+      }
+      Console.WriteLine("Sizni yoshingiz" + " " + yosh + " " + "da");
     }
-    else
+    catch (Exception ex)
     {
-      Console.WriteLine("Hush kelibsiz");
+      Console.WriteLine(ex.Message);
+      Console.ReadKey();
     }
-    Console.WriteLine("Sizni yoshingiz" + " " + yosh + " " + "da");
-    // */
   }
 }
